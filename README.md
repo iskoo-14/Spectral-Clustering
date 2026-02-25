@@ -24,17 +24,6 @@ The complete theoretical explanation and results are available in:
 2. Build adjacency matrix \( W \)  
 3. Compute Degree matrix \( D \)  
 4. Construct Laplacian matrix:
-
-Unnormalized:
-$$
-L = D - W
-$$
-
-Normalized symmetric:
-$$
-L_{sym} = I - D^{-1/2} W D^{-1/2}
-$$
-
 5. Compute smallest eigenvalues  
 6. Select number of clusters using **Eigengap heuristic**  
 7. Perform K-means on spectral embedding  
